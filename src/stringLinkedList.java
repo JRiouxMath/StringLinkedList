@@ -1,3 +1,7 @@
+/**
+ * Original copied from Savitch text to better learn data structures
+ * I am hoping to teach this to my CSA students in 19-20
+ */
 public class stringLinkedList
 {
     private ListNode head;
@@ -5,7 +9,6 @@ public class stringLinkedList
 
     /**
      * Default constructor
-     * @return none
      */
     public stringLinkedList()
     {
@@ -15,7 +18,6 @@ public class stringLinkedList
 
     /**
      * Method to print out the list.  Not quite a toString, but almost
-     * @return none
      */
     public void printList()
     {
@@ -48,7 +50,6 @@ public class stringLinkedList
     /**
      * method to add a node at the head
      * @param data
-     * @return none
       */
     public void addNodeToStart (String data)
     {
@@ -58,7 +59,6 @@ public class stringLinkedList
     /**
      * Method to add a node to the tail
      * @param data
-     * @return none
      */
     public void addNodeToEnd(String data)
     {
@@ -74,7 +74,6 @@ public class stringLinkedList
 
     /**
      * method to delete the first node on the list
-     * @return none
      */
     public void deleteHeadNode()
     {
@@ -89,7 +88,6 @@ public class stringLinkedList
 
     /**
      * Method to delete the last node on the list
-     * @return none
      */
     public void deleteTailNode()
     {
